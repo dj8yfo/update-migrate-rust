@@ -5,7 +5,7 @@ authors = ["Near Inc <hello@near.org>"]
 edition = "2021"
 
 [package.metadata.near.reproducible_build]
-build_environment = "docker.io/sourcescan/cargo-near:0.6.0@sha256:bf488476d9c4e49e36862bbdef2c595f88d34a295fd551cc65dc291553849471"
+build_environment.workspace = true
 
 [lib]
 crate-type = ["cdylib"]
