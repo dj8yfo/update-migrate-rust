@@ -6,6 +6,9 @@ debug = false
 panic = "abort"
 overflow-checks = true
 
+[workspace.metadata.near.reproducible_build]
+image = "docker.io/sourcescan/cargo-near:0.6.0-builder@sha256:d21001ebc889478deac105a07efbefcd667d6a2e927e8ea5f1526cd1877ae84a"
+
 [workspace]
 members = [
     "basic-updates/base",

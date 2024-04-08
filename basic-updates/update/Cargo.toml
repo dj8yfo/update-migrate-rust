@@ -4,6 +4,9 @@ version = "1.0.0"
 authors = ["Near Inc <hello@near.org>"]
 edition = "2021"
 
+[package.metadata.near.reproducible_build]
+image.workspace = true 
+
 [lib]
 crate-type = ["cdylib"]
 
